@@ -7,8 +7,10 @@
 //
 
 import WatchKit
-import Foundation
 
-class TableRowControl : WKInterfaceController{
+class CordsRowControl : NSObject{
+    
+    @IBOutlet var myLable: WKInterfaceLabel!
+    
     
 }

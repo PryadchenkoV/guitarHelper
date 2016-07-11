@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045219E71D33BAD100CDFBC9 /* CordsRowControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045219E61D33BAD100CDFBC9 /* CordsRowControl.swift */; };
 		E24CBEE01D33AE50008EC25B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24CBEDF1D33AE50008EC25B /* AppDelegate.swift */; };
 		E24CBEE21D33AE50008EC25B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24CBEE11D33AE50008EC25B /* ViewController.swift */; };
 		E24CBEE51D33AE50008EC25B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24CBEE31D33AE50008EC25B /* Main.storyboard */; };
@@ -64,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		045219E61D33BAD100CDFBC9 /* CordsRowControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CordsRowControl.swift; sourceTree = "<group>"; };
 		E24CBEDC1D33AE50008EC25B /* GuitarHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24CBEDF1D33AE50008EC25B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E24CBEE11D33AE50008EC25B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				E24CBF041D33AE51008EC25B /* ExtensionDelegate.swift */,
 				E24CBF061D33AE51008EC25B /* Assets.xcassets */,
 				E24CBF081D33AE51008EC25B /* Info.plist */,
+				045219E61D33BAD100CDFBC9 /* CordsRowControl.swift */,
 			);
 			path = "GuitarHelper WatchKit Extension";
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			files = (
 				E24CBF051D33AE51008EC25B /* ExtensionDelegate.swift in Sources */,
 				E24CBF031D33AE51008EC25B /* InterfaceController.swift in Sources */,
+				045219E71D33BAD100CDFBC9 /* CordsRowControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +533,7 @@
 				E24CBF0D1D33AE51008EC25B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E24CBF0F1D33AE51008EC25B /* Build configuration list for PBXNativeTarget "GuitarHelper WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +542,7 @@
 				E24CBF111D33AE51008EC25B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E24CBF131D33AE51008EC25B /* Build configuration list for PBXNativeTarget "GuitarHelper" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +551,7 @@
 				E24CBF151D33AE51008EC25B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
