@@ -40,7 +40,9 @@
         <scene sceneID="s87-Cw-p6b">
             <objects>
                 <controller id="Jdb-uJ-dpR">
-                    <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <items>
+                        <label alignment="center" text="Label" id="IER-Cv-nQ7"/>
+                    </items>
                     <connections>
                         <segue destination="2el-6y-EOr" kind="relationship" relationship="nextPage" id="tei-jt-nWu"/>
                     </connections>
