@@ -10,7 +10,7 @@ import WatchKit
 import Foundation
 
 
-class InterfaceController: WKInterfaceController {
+class MainScreen: WKInterfaceController {
 
     let names = ["Cords","Tabes"]
   
