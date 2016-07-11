@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E24CBEE01D33AE50008EC25B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24CBEDF1D33AE50008EC25B /* AppDelegate.swift */; };
+		E24CBEE21D33AE50008EC25B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24CBEE11D33AE50008EC25B /* ViewController.swift */; };
+		E24CBEE51D33AE50008EC25B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24CBEE31D33AE50008EC25B /* Main.storyboard */; };
+		E24CBEE71D33AE50008EC25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24CBEE61D33AE50008EC25B /* Assets.xcassets */; };
+		E24CBEEA1D33AE50008EC25B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24CBEE81D33AE50008EC25B /* LaunchScreen.storyboard */; };
+		E24CBEEF1D33AE50008EC25B /* GuitarHelper WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E24CBEEE1D33AE50008EC25B /* GuitarHelper WatchKit App.app */; };
+		E24CBEF51D33AE50008EC25B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24CBEF31D33AE50008EC25B /* Interface.storyboard */; };
+		E24CBEF71D33AE50008EC25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24CBEF61D33AE50008EC25B /* Assets.xcassets */; };
+		E24CBEFE1D33AE50008EC25B /* GuitarHelper WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E24CBEFD1D33AE50008EC25B /* GuitarHelper WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E24CBF031D33AE51008EC25B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24CBF021D33AE51008EC25B /* InterfaceController.swift */; };
+		E24CBF051D33AE51008EC25B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24CBF041D33AE51008EC25B /* ExtensionDelegate.swift */; };
+		E24CBF071D33AE51008EC25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24CBF061D33AE51008EC25B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E24CBEF01D33AE50008EC25B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E24CBED41D33AE50008EC25B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E24CBEED1D33AE50008EC25B;
+			remoteInfo = "GuitarHelper WatchKit App";
+		};
+		E24CBEFF1D33AE50008EC25B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E24CBED41D33AE50008EC25B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E24CBEFC1D33AE50008EC25B;
+			remoteInfo = "GuitarHelper WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E24CBF0E1D33AE51008EC25B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E24CBEFE1D33AE50008EC25B /* GuitarHelper WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24CBF121D33AE51008EC25B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E24CBEEF1D33AE50008EC25B /* GuitarHelper WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E24CBEDC1D33AE50008EC25B /* GuitarHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24CBEDF1D33AE50008EC25B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E24CBEE11D33AE50008EC25B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E24CBEE41D33AE50008EC25B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E24CBEE61D33AE50008EC25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E24CBEE91D33AE50008EC25B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E24CBEEB1D33AE50008EC25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24CBEEE1D33AE50008EC25B /* GuitarHelper WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GuitarHelper WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24CBEF41D33AE50008EC25B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E24CBEF61D33AE50008EC25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E24CBEF81D33AE50008EC25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24CBEFD1D33AE50008EC25B /* GuitarHelper WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GuitarHelper WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24CBF021D33AE51008EC25B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E24CBF041D33AE51008EC25B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E24CBF061D33AE51008EC25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E24CBF081D33AE51008EC25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E24CBED91D33AE50008EC25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24CBEFA1D33AE50008EC25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E24CBED31D33AE50008EC25B = {
+			isa = PBXGroup;
+			children = (
+				E24CBEDE1D33AE50008EC25B /* GuitarHelper */,
+				E24CBEF21D33AE50008EC25B /* GuitarHelper WatchKit App */,
+				E24CBF011D33AE50008EC25B /* GuitarHelper WatchKit Extension */,
+				E24CBEDD1D33AE50008EC25B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E24CBEDD1D33AE50008EC25B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E24CBEDC1D33AE50008EC25B /* GuitarHelper.app */,
+				E24CBEEE1D33AE50008EC25B /* GuitarHelper WatchKit App.app */,
+				E24CBEFD1D33AE50008EC25B /* GuitarHelper WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E24CBEDE1D33AE50008EC25B /* GuitarHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E24CBEDF1D33AE50008EC25B /* AppDelegate.swift */,
+				E24CBEE11D33AE50008EC25B /* ViewController.swift */,
+				E24CBEE31D33AE50008EC25B /* Main.storyboard */,
+				E24CBEE61D33AE50008EC25B /* Assets.xcassets */,
+				E24CBEE81D33AE50008EC25B /* LaunchScreen.storyboard */,
+				E24CBEEB1D33AE50008EC25B /* Info.plist */,
+			);
+			path = GuitarHelper;
+			sourceTree = "<group>";
+		};
+		E24CBEF21D33AE50008EC25B /* GuitarHelper WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E24CBEF31D33AE50008EC25B /* Interface.storyboard */,
+				E24CBEF61D33AE50008EC25B /* Assets.xcassets */,
+				E24CBEF81D33AE50008EC25B /* Info.plist */,
+			);
+			path = "GuitarHelper WatchKit App";
+			sourceTree = "<group>";
+		};
+		E24CBF011D33AE50008EC25B /* GuitarHelper WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E24CBF021D33AE51008EC25B /* InterfaceController.swift */,
+				E24CBF041D33AE51008EC25B /* ExtensionDelegate.swift */,
+				E24CBF061D33AE51008EC25B /* Assets.xcassets */,
+				E24CBF081D33AE51008EC25B /* Info.plist */,
+			);
+			path = "GuitarHelper WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E24CBEDB1D33AE50008EC25B /* GuitarHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E24CBF131D33AE51008EC25B /* Build configuration list for PBXNativeTarget "GuitarHelper" */;
+			buildPhases = (
+				E24CBED81D33AE50008EC25B /* Sources */,
+				E24CBED91D33AE50008EC25B /* Frameworks */,
+				E24CBEDA1D33AE50008EC25B /* Resources */,
+				E24CBF121D33AE51008EC25B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E24CBEF11D33AE50008EC25B /* PBXTargetDependency */,
+			);
+			name = GuitarHelper;
+			productName = GuitarHelper;
+			productReference = E24CBEDC1D33AE50008EC25B /* GuitarHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E24CBEED1D33AE50008EC25B /* GuitarHelper WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E24CBF0F1D33AE51008EC25B /* Build configuration list for PBXNativeTarget "GuitarHelper WatchKit App" */;
+			buildPhases = (
+				E24CBEEC1D33AE50008EC25B /* Resources */,
+				E24CBF0E1D33AE51008EC25B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E24CBF001D33AE50008EC25B /* PBXTargetDependency */,
+			);
+			name = "GuitarHelper WatchKit App";
+			productName = "GuitarHelper WatchKit App";
+			productReference = E24CBEEE1D33AE50008EC25B /* GuitarHelper WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E24CBEFC1D33AE50008EC25B /* GuitarHelper WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E24CBF0B1D33AE51008EC25B /* Build configuration list for PBXNativeTarget "GuitarHelper WatchKit Extension" */;
+			buildPhases = (
+				E24CBEF91D33AE50008EC25B /* Sources */,
+				E24CBEFA1D33AE50008EC25B /* Frameworks */,
+				E24CBEFB1D33AE50008EC25B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GuitarHelper WatchKit Extension";
+			productName = "GuitarHelper WatchKit Extension";
+			productReference = E24CBEFD1D33AE50008EC25B /* GuitarHelper WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E24CBED41D33AE50008EC25B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ivan Pryadchenko";
+				TargetAttributes = {
+					E24CBEDB1D33AE50008EC25B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E24CBEED1D33AE50008EC25B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E24CBEFC1D33AE50008EC25B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E24CBED71D33AE50008EC25B /* Build configuration list for PBXProject "GuitarHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E24CBED31D33AE50008EC25B;
+			productRefGroup = E24CBEDD1D33AE50008EC25B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E24CBEDB1D33AE50008EC25B /* GuitarHelper */,
+				E24CBEED1D33AE50008EC25B /* GuitarHelper WatchKit App */,
+				E24CBEFC1D33AE50008EC25B /* GuitarHelper WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E24CBEDA1D33AE50008EC25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24CBEEA1D33AE50008EC25B /* LaunchScreen.storyboard in Resources */,
+				E24CBEE71D33AE50008EC25B /* Assets.xcassets in Resources */,
+				E24CBEE51D33AE50008EC25B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24CBEEC1D33AE50008EC25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24CBEF71D33AE50008EC25B /* Assets.xcassets in Resources */,
+				E24CBEF51D33AE50008EC25B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24CBEFB1D33AE50008EC25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24CBF071D33AE51008EC25B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E24CBED81D33AE50008EC25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24CBEE21D33AE50008EC25B /* ViewController.swift in Sources */,
+				E24CBEE01D33AE50008EC25B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24CBEF91D33AE50008EC25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24CBF051D33AE51008EC25B /* ExtensionDelegate.swift in Sources */,
+				E24CBF031D33AE51008EC25B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E24CBEF11D33AE50008EC25B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E24CBEED1D33AE50008EC25B /* GuitarHelper WatchKit App */;
+			targetProxy = E24CBEF01D33AE50008EC25B /* PBXContainerItemProxy */;
+		};
+		E24CBF001D33AE50008EC25B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E24CBEFC1D33AE50008EC25B /* GuitarHelper WatchKit Extension */;
+			targetProxy = E24CBEFF1D33AE50008EC25B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E24CBEE31D33AE50008EC25B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E24CBEE41D33AE50008EC25B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E24CBEE81D33AE50008EC25B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E24CBEE91D33AE50008EC25B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E24CBEF31D33AE50008EC25B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E24CBEF41D33AE50008EC25B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E24CBF091D33AE51008EC25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E24CBF0A1D33AE51008EC25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E24CBF0C1D33AE51008EC25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GuitarHelper WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hse.miem.GuitarHelper.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		E24CBF0D1D33AE51008EC25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GuitarHelper WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hse.miem.GuitarHelper.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		E24CBF101D33AE51008EC25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = GuitarHelper_WatchKit_Extension;
+				INFOPLIST_FILE = "GuitarHelper WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hse.miem.GuitarHelper.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		E24CBF111D33AE51008EC25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = GuitarHelper_WatchKit_Extension;
+				INFOPLIST_FILE = "GuitarHelper WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hse.miem.GuitarHelper.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		E24CBF141D33AE51008EC25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuitarHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hse.miem.GuitarHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E24CBF151D33AE51008EC25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuitarHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hse.miem.GuitarHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E24CBED71D33AE50008EC25B /* Build configuration list for PBXProject "GuitarHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24CBF091D33AE51008EC25B /* Debug */,
+				E24CBF0A1D33AE51008EC25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E24CBF0B1D33AE51008EC25B /* Build configuration list for PBXNativeTarget "GuitarHelper WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24CBF0C1D33AE51008EC25B /* Debug */,
+				E24CBF0D1D33AE51008EC25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E24CBF0F1D33AE51008EC25B /* Build configuration list for PBXNativeTarget "GuitarHelper WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24CBF101D33AE51008EC25B /* Debug */,
+				E24CBF111D33AE51008EC25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E24CBF131D33AE51008EC25B /* Build configuration list for PBXNativeTarget "GuitarHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24CBF141D33AE51008EC25B /* Debug */,
+				E24CBF151D33AE51008EC25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E24CBED41D33AE50008EC25B /* Project object */;
+}
