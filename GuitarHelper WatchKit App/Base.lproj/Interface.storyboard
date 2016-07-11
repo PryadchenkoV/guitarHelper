@@ -5,11 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Main Screen-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="GuitarHelper_WatchKit_App" customModuleProvider="target">
+                <controller id="AgC-eL-Hgc" customClass="MainScreen" customModule="GuitarHelper_WatchKit_Extension">
                     <items>
                         <table alignment="left" id="rtB-xd-Rgr">
                             <items>

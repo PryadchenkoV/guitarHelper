@@ -10,7 +10,7 @@ import WatchKit
 import Foundation
 
 
-class InterfaceController: WKInterfaceController {
+class MainScreen: WKInterfaceController {
 
     let songList = ["Smells Like Teen Spirit", "About the Girl", "Nothing Else Matters"]
 
