@@ -16,9 +16,10 @@
 		E24CBEF51D33AE50008EC25B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24CBEF31D33AE50008EC25B /* Interface.storyboard */; };
 		E24CBEF71D33AE50008EC25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24CBEF61D33AE50008EC25B /* Assets.xcassets */; };
 		E24CBEFE1D33AE50008EC25B /* GuitarHelper WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E24CBEFD1D33AE50008EC25B /* GuitarHelper WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		E24CBF031D33AE51008EC25B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24CBF021D33AE51008EC25B /* InterfaceController.swift */; };
+		E24CBF031D33AE51008EC25B /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24CBF021D33AE51008EC25B /* MainScreen.swift */; };
 		E24CBF051D33AE51008EC25B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24CBF041D33AE51008EC25B /* ExtensionDelegate.swift */; };
 		E24CBF071D33AE51008EC25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24CBF061D33AE51008EC25B /* Assets.xcassets */; };
+		E24CBF171D33BF1F008EC25B /* MainScreenSongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24CBF161D33BF1F008EC25B /* MainScreenSongList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,10 +77,11 @@
 		E24CBEF61D33AE50008EC25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24CBEF81D33AE50008EC25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E24CBEFD1D33AE50008EC25B /* GuitarHelper WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GuitarHelper WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E24CBF021D33AE51008EC25B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E24CBF021D33AE51008EC25B /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		E24CBF041D33AE51008EC25B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		E24CBF061D33AE51008EC25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24CBF081D33AE51008EC25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24CBF161D33BF1F008EC25B /* MainScreenSongList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenSongList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +148,8 @@
 		E24CBF011D33AE50008EC25B /* GuitarHelper WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				E24CBF021D33AE51008EC25B /* InterfaceController.swift */,
+				E24CBF021D33AE51008EC25B /* MainScreen.swift */,
+				E24CBF161D33BF1F008EC25B /* MainScreenSongList.swift */,
 				E24CBF041D33AE51008EC25B /* ExtensionDelegate.swift */,
 				E24CBF061D33AE51008EC25B /* Assets.xcassets */,
 				E24CBF081D33AE51008EC25B /* Info.plist */,
@@ -295,8 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24CBF171D33BF1F008EC25B /* MainScreenSongList.swift in Sources */,
 				E24CBF051D33AE51008EC25B /* ExtensionDelegate.swift in Sources */,
-				E24CBF031D33AE51008EC25B /* InterfaceController.swift in Sources */,
+				E24CBF031D33AE51008EC25B /* MainScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
