@@ -51,6 +51,55 @@
             <point key="canvasLocation" x="372" y="327"/>
         </scene>
         <!--Interface Controller-->
+        <scene sceneID="6ld-MY-Uab">
+            <objects>
+                <controller id="duB-VX-HJl" customClass="InterfaceController" customModule="GuitarHelper_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="dol-Lk-30F">
+                            <items>
+                                <tableRow identifier="CordsRowController" id="Qse-9d-GdN" customClass="CordsRowControl" customModule="GuitarHelper_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="kFj-h5-AbG">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Label" id="2At-cr-PO3">
+                                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" type="boldSystem" pointSize="22"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="myLable" destination="2At-cr-PO3" id="0YA-rA-6X7"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="myTable" destination="dol-Lk-30F" id="zjp-ub-dLr"/>
+                        <segue destination="AwD-cL-tVN" kind="relationship" relationship="nextPage" id="nBH-ZJ-S50"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="397" y="662"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="EoX-9g-zB7">
+            <objects>
+                <controller id="AwD-cL-tVN">
+                    <connections>
+                        <segue destination="YRd-hY-sGt" kind="relationship" relationship="nextPage" id="GYL-tz-6No"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="644" y="662"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="mOr-2x-aTa">
+            <objects>
+                <controller id="YRd-hY-sGt"/>
+            </objects>
+            <point key="canvasLocation" x="868" y="662"/>
+        </scene>
+        <!--Interface Controller-->
         <scene sceneID="TGF-xW-xFx">
             <objects>
                 <controller id="2el-6y-EOr">

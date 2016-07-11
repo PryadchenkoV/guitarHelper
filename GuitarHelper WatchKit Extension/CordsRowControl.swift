@@ -10,7 +10,8 @@ import WatchKit
 
 class CordsRowControl : NSObject{
     
-    @IBOutlet var myLable: WKInterfaceLabel!
     
+    
+    @IBOutlet var myLable: WKInterfaceLabel!
     
 }

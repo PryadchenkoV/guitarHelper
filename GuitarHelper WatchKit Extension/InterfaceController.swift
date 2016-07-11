@@ -1,4 +1,12 @@
 //
+//  interfaceController.swift
+//  GuitarHelper
+//
+//  Created by Ivan Pryadchenko on 11.07.16.
+//  Copyright © 2016 Ivan Pryadchenko. All rights reserved.
+//
+
+//
 //  InterfaceController.swift
 //  GuitarHelper WatchKit Extension
 //
@@ -10,16 +18,17 @@ import WatchKit
 import Foundation
 
 
-class MainScreen: WKInterfaceController {
-
+class InterfaceController: WKInterfaceController {
+    
     let names = ["Cords","Tabes"]
-  
-    @IBOutlet weak var myTable : WKInterfaceTable!
     
     
     
-
-        override func awakeWithContext(context: AnyObject?) {
+    @IBOutlet var myTable: WKInterfaceTable!
+    
+    
+    
+    override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
         loadTableData()
@@ -33,17 +42,18 @@ class MainScreen: WKInterfaceController {
             row.myLable.setText(nameT)
         }
     }
-
+    
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
     }
     
     
-
+    
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-
+    
 }
+

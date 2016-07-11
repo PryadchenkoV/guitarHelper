@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		045219E71D33BAD100CDFBC9 /* CordsRowControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045219E61D33BAD100CDFBC9 /* CordsRowControl.swift */; };
+		E2292F701D33D7A600D06648 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2292F6F1D33D7A600D06648 /* MainScreen.swift */; };
+		E2292F721D33D9C500D06648 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2292F711D33D9C500D06648 /* InterfaceController.swift */; };
 		E24CBEE01D33AE50008EC25B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24CBEDF1D33AE50008EC25B /* AppDelegate.swift */; };
 		E24CBEE21D33AE50008EC25B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24CBEE11D33AE50008EC25B /* ViewController.swift */; };
 		E24CBEE51D33AE50008EC25B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24CBEE31D33AE50008EC25B /* Main.storyboard */; };
@@ -66,6 +68,8 @@
 
 /* Begin PBXFileReference section */
 		045219E61D33BAD100CDFBC9 /* CordsRowControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CordsRowControl.swift; sourceTree = "<group>"; };
+		E2292F6F1D33D7A600D06648 /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		E2292F711D33D9C500D06648 /* InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		E24CBEDC1D33AE50008EC25B /* GuitarHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24CBEDF1D33AE50008EC25B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E24CBEE11D33AE50008EC25B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,7 +82,6 @@
 		E24CBEF61D33AE50008EC25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24CBEF81D33AE50008EC25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E24CBEFD1D33AE50008EC25B /* GuitarHelper WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GuitarHelper WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E24CBF021D33AE51008EC25B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		E24CBF041D33AE51008EC25B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		E24CBF061D33AE51008EC25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24CBF081D33AE51008EC25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -149,12 +152,13 @@
 		E24CBF011D33AE50008EC25B /* GuitarHelper WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				E24CBF021D33AE51008EC25B /* InterfaceController.swift */,
 				E24CBF161D33BF1F008EC25B /* MainScreenSongList.swift */,
 				E24CBF041D33AE51008EC25B /* ExtensionDelegate.swift */,
 				E24CBF061D33AE51008EC25B /* Assets.xcassets */,
 				E24CBF081D33AE51008EC25B /* Info.plist */,
 				045219E61D33BAD100CDFBC9 /* CordsRowControl.swift */,
+				E2292F6F1D33D7A600D06648 /* MainScreen.swift */,
+				E2292F711D33D9C500D06648 /* InterfaceController.swift */,
 			);
 			path = "GuitarHelper WatchKit Extension";
 			sourceTree = "<group>";
@@ -300,6 +304,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2292F701D33D7A600D06648 /* MainScreen.swift in Sources */,
+				E2292F721D33D9C500D06648 /* InterfaceController.swift in Sources */,
 				E24CBF171D33BF1F008EC25B /* MainScreenSongList.swift in Sources */,
 				E24CBF051D33AE51008EC25B /* ExtensionDelegate.swift in Sources */,
 				045219E71D33BAD100CDFBC9 /* CordsRowControl.swift in Sources */,
