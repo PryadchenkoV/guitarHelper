@@ -36,19 +36,37 @@
             </objects>
             <point key="canvasLocation" x="148" y="327"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Metronom Controller-->
         <scene sceneID="s87-Cw-p6b">
             <objects>
-                <controller id="Jdb-uJ-dpR">
+                <controller id="Jdb-uJ-dpR" customClass="MetronomController" customModule="GuitarHelper_WatchKit_Extension">
                     <items>
-                        <label alignment="center" text="Label" id="IER-Cv-nQ7"/>
+                        <label alignment="center" text="Metronome" id="IER-Cv-nQ7">
+                            <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="21"/>
+                        </label>
+                        <picker width="1" height="75" alignment="center" verticalAlignment="center" focusStyle="sequence" id="TSr-NI-oiV">
+                            <connections>
+                                <action selector="pickerIndex:" destination="Jdb-uJ-dpR" id="BPG-Iz-hvV"/>
+                            </connections>
+                        </picker>
+                        <button width="1" height="33.5" alignment="center" verticalAlignment="center" title="Start/Stop" id="bLN-0K-C9u">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="21"/>
+                            <connections>
+                                <action selector="buttonStartPush" destination="Jdb-uJ-dpR" id="Vz9-BO-zkT"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
+                        <outlet property="buttonStart" destination="bLN-0K-C9u" id="ym3-po-7Z4"/>
+                        <outlet property="pickerSpeed" destination="TSr-NI-oiV" id="m4E-Fd-fNE"/>
                         <segue destination="2el-6y-EOr" kind="relationship" relationship="nextPage" id="tei-jt-nWu"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="372" y="327"/>
+            <point key="canvasLocation" x="372" y="324"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="6ld-MY-Uab">
