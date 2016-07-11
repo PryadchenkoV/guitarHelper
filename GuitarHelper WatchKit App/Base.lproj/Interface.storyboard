@@ -8,8 +8,57 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="GuitarHelper_WatchKit_App" customModuleProvider="target"/>
+
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="GuitarHelper_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="rtB-xd-Rgr">
+                            <items>
+                                <tableRow identifier="MainScreenSongList" id="B6c-Su-rfs" userLabel="Song Row Controller" customClass="MainScreenSongList" customModule="GuitarHelper_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="hX1-fS-Zm7">
+                                        <items>
+                                            <label width="1" alignment="left" text="Song" textAlignment="center" numberOfLines="0" id="0p3-k0-zEH" userLabel="lableSong">
+                                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" type="system" pointSize="22"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="lableSongText" destination="0p3-k0-zEH" id="ro4-un-LBD"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="songTable" destination="rtB-xd-Rgr" id="gBO-R4-ZjW"/>
+                        <segue destination="Jdb-uJ-dpR" kind="relationship" relationship="nextPage" id="QtC-X5-PVN"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="148" y="327"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="s87-Cw-p6b">
+            <objects>
+                <controller id="Jdb-uJ-dpR">
+                    <items>
+                        <label alignment="center" text="Label" id="IER-Cv-nQ7"/>
+                    </items>
+                    <connections>
+                        <segue destination="2el-6y-EOr" kind="relationship" relationship="nextPage" id="tei-jt-nWu"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="372" y="327"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="TGF-xW-xFx">
+            <objects>
+                <controller id="2el-6y-EOr">
+                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="611" y="327"/>
         </scene>
     </scenes>
 </document>
